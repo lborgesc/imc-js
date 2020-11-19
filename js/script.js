@@ -131,3 +131,10 @@ function exibeResultado() {
     }
     document.getElementById('cadastro').innerHTML = template;
 }
+
+function limparForm() {
+
+    document.getElementById("nome").value = '';
+    document.getElementById("altura").value = '';
+    document.getElementById("peso").value = '';
+}
